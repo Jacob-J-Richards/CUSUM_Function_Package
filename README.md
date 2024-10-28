@@ -18,7 +18,11 @@
     
     Given these inputs a cumulative sum chart will be produced and will terminate when 
     either your data set has been exausted and the null hypothesis remains un-rejected
-    or will terminate as soon as the contol limit has been passed. 
+    or will terminate as soon as the contol limit has been breached and the null hypothesis 
+    has been rejected. 
+
+    H0: population mean of which inputted sample was spawned from is equal to mu0 inputted at function call
+    for more information on how control limites are derived please see 'spc' documentation. 
 
     
     In eithercase a report on the null hypothesis and values of all
