@@ -15,6 +15,18 @@
     xcusum.crit(k, L0, mu0 = 0, hs = 0, sided = "one", r = 30) 
     for the calculation of control limits. 
 
+    Usage
+    xcusum.crit(k, L0, mu0 = 0, hs = 0, sided = "one", r = 30)
+    Arguments
+    k     reference value of the CUSUM control chart.
+    L0     in-control ARL.
+    mu0     in-control mean.
+    hs     so-called headstart (enables fast initial response).
+    sided     distinguishes between one-, two-sided and Crosier’s modified two-sided CUSUM
+    scheme by choosing "one", "two", and "Crosier", respectively.
+    r     number of quadrature nodes, dimension of the resulting linear equation system
+    is equal to r+1 (one-, two-sided) or 2r+1 (Crosier).
+
     
     Given these inputs a cumulative sum chart will be produced and will terminate when 
     either your data set has been exausted and the null hypothesis remains un-rejected
@@ -22,7 +34,7 @@
     has been rejected. 
 
     H0: population mean of which inputted sample was spawned from is equal to mu0 inputted at function call
-    for more information on how control limites are derived please see 'spc' documentation. 
+    
 
     
     In eithercase a report on the null hypothesis and values of all
