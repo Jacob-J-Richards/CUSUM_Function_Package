@@ -1,8 +1,8 @@
     enter into console:
-    > devtools::install_github("Jacob-J-Richards/CUSUM_Package_2")
-    > library(myfirstpackage2)
-    > install.packages('spc')
-    > library(spc)
+>    devtools::install_github("Jacob-J-Richards/CUSUM_Package_2")
+>    library(myfirstpackage2)
+>    install.packages('spc')
+>    library(spc)
 
     
     Provide your data sample as a column or row of a data frame, matrix, list, or just
