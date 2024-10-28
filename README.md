@@ -1,5 +1,5 @@
     enter into console:
-    devtools::install_github("Jacob-J-Richards/CUSUM_Package_2")
+    devtools::install_github("Jacob-J-Richards/Cumulative_Sum_Chart_Implimentation_Package")
     library(myfirstpackage2)
     install.packages('spc')
     library(spc)
