@@ -33,7 +33,8 @@
     or will terminate as soon as the contol limit has been breached and the null hypothesis 
     has been rejected. 
 
-    H0: population mean of which inputted sample was spawned from is equal to mu0 inputted at function call
+    H0: population mean of which inputted sample was spawned from is equal to mu0 
+    inputted at function call
     
 
     
