@@ -2,7 +2,7 @@
 
 ## Install:
 
-    devtools::install_github("Jacob-J-Richards/CUSUM_Package")
+    devtools::install_github("Jacob-J-Richards/CUSUM_Function_Package")
     
     library(myfirstpackage2)
 
